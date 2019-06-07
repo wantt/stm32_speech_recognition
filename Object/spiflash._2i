@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 -Otime --apcs=interwork --split_sections -I .\Src\APP -I .\Src\BSP -I .\Src\GUI -I .\Src\CM3_SYS -I .\Src\FATFS -I .\Src\StdPeriph_Driver -I .\Src\StdPeriph_Driver\inc -I .\Src\Speech_Recog
+-I.\RTE\_Voice_Rec
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="525" -DSTM32F10X_HD
+-o .\object\spiflash.o --list_dir ".\\List\\" --list --omf_browse .\object\spiflash.crf --depend .\object\spiflash.d --feedback ".\Object\stm32-speech-recognition.fed" "Src\BSP\spiFlash.c"

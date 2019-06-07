@@ -1,0 +1,6 @@
+--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"
+-I.\RTE\_Voice_Rec
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+--pd "__UVISION_VERSION SETA 525" --pd "STM32F10X_HD SETA 1"
+--list .\list\cr4_fft_1024_stm32.lst --xref -o .\object\cr4_fft_1024_stm32.o --depend .\object\cr4_fft_1024_stm32.d "Src\BSP\cr4_fft_1024_stm32.s"
